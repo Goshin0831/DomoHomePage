@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 <div class="row">
     <div class="col-lg-8 offset-lg-2">
-        <img src="{{ url_for('static', filename=member.picture_path) }}">
+        <img src="{{ url_for('static', filename=member.picture_path) }}" width="100%">
         <ul>
             <li>名前: {{ member.name }}</li>
             <li>年齢: {{ member.age }}</li>
